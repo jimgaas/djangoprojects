@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+
+<h1>Login</h1>
+<form action="login.php" method="post">
+<ul>
+	<li><label for="username">Username:</label>
+		<input type="text" name="username">
+	</li>
+
+	<li><label for="passowrd">Password:</label>
+		<input type="password" name="password">
+	</li>
+
+	<li>
+		<input type="submit" value="login" name="loginForm">
+	</li>
+</ul>
+</form>
+
+
+
+
+{% endblock %}

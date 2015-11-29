@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+
+    <p>All Members</p>
+    {% for member in members %}
+        <div>
+
+         {{member.first_name}}
+        </div>
+    {% endfor %}
+
+
+{% endblock %}

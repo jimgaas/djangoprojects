@@ -1,0 +1,85 @@
+
+body{
+	background-color: #F0F0F0;
+	
+	}
+
+.container{
+	text-align: center;
+	}
+
+nav li{
+	display: inline;
+	padding-right: 50px;
+	text-decoration: none;
+	}
+
+nav a{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+}
+nav a:hover{
+	color: #858585;
+}
+header{
+	height: 200px;
+	padding-top: 30px;
+}
+header img{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+header #usa{
+	position: relative;
+	bottom: 40px;
+}
+
+header #logo{
+	border: solid 1px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+header #norway{
+	position: relative;
+	bottom: 40px;
+}
+.content{
+	width: 800px;
+	margin: auto;
+}
+.content h2{
+	font-size: 40px;
+	font-family: sans-serif;
+}
+.content p{
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+.news{
+	width: 600px;
+	margin: auto;
+	border: solid 1px;
+}
+
+.news h1{
+	position: relative;
+	right: 100px;
+	bottom: 20px;
+}
+.news .date{
+	position: relative;
+	bottom: 60px;
+	left: 210px
+}
+.news .article{
+	font-size: 25px;
+}
+#photos table{
+	margin: auto;
+	
+}
+form ul li{
+	list-style: none;
+}

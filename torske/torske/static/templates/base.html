@@ -1,0 +1,40 @@
+{% load staticfiles %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css"/>
+		<title>Torske Klubben</title>
+		<meta charset="UTF-8">
+		
+	</head>
+	
+	<body>
+	<div class="container">
+		
+			<nav>
+				<ul>
+					<li><a href="/index"> Home</a></li>
+                         <li><a href="/programs">Programs</a></li>
+					<li><a href="/info">Our Club</a></li>
+					<li><a href="/news">News</a></li>
+					<li><a href="/login">Private Directory</a></li>
+					<li><a href="/photos">Photos</a></li>
+				</ul>
+			</nav>
+		<header>
+		<img id="usa" alt="usa flag" src="{% static 'images/usa_flag.gif' %}" width="80" height="58">
+		<a href="index.html"><img id="logo" alt="Torske Kluben Norwegian Luncheon Club" src="{% static 'images/TK1.jpg' %}" width="400" height="131"></a>
+		<img id="norway" alt="Norwegian Flag" src="{% static 'images/norway_flag.gif' %}" width="80" height="58">
+
+		</header>
+
+        {% block content %} {% endblock %}
+
+
+		<footer>
+			<p>Send mail to <a href="mailto:jim@gaas.cc">jim@gaas.cc</a> with questions or comments about this web site.</p>
+			<p>This website was intended for viewing in <a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a></p>
+		</footer>
+	</body>
+	</div>
+</html>
