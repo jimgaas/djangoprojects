@@ -18,10 +18,11 @@ from django.contrib import admin
 from torske.views import *
 
 urlpatterns = [
+    url(r'^$', index),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^index/', index),
     url(r'^programs/', programs),
-    url(r'^news/', news),
+    url(r'^news/$', news),
     url(r'^photos/', photos),
     url(r'^login/', login),
     url(r'^students/', students),

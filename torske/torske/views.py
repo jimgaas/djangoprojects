@@ -35,7 +35,10 @@ def members(request):
     return render(request, 'members.html', 
                   context=Context({'members': all_members}))
     
-    
+# def students1(request):
+#    all_members = Member.objects.filter(id=1)
+#    return render(request, 'members.html', 
+#                  context=Context({'members': all_members}))   
     
     
     
